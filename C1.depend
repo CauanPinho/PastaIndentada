@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1743445502 source:c:\users\user\downloads\pastaindentada\c1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1756065031 source:c:\users\user\downloads\pastaindentada\c1\exercicio01.c
+	<stdio.h>
+	<locale.h>
+
+1756066625 source:c:\users\user\downloads\pastaindentada\c1\exercicio03.c
+	<stdio.h>
+	<locale.h>
+
+1756066803 source:c:\users\user\downloads\pastaindentada\c1\exercicio04.c
+	<stdio.h>
+	<locale.h>
+
+1756068438 source:c:\users\user\downloads\pastaindentada\c1\exercicio06.c
+	<stdio.h>
+	<locale.h>
+
+1756072110 source:c:\users\user\downloads\pastaindentada\c1\exercicio09.c
+	<stdio.h>
+	<math.h>
+
+1756072930 source:c:\users\user\downloads\pastaindentada\c1\exercicio10.c
+	<stdio.h>
+	<math.h>
+
+1756074648 source:c:\users\user\downloads\pastaindentada\c1\exercicio12.c
+	<stdio.h>
+	<math.h>
+
+1756078613 source:c:\users\user\downloads\pastaindentada\c1\exercicio16.c
+	<stdio.h>
+
+1756078980 source:c:\users\user\downloads\pastaindentada\c1\exercicio 17.c
+	<stdio.h>
+
+1756079993 source:c:\users\user\downloads\pastaindentada\c1\exercicio18.c
+	<stdio.h>
+
+1756081109 source:c:\users\user\downloads\pastaindentada\c1\exercicio 19.c
+	<stdio.h>
+	<locale.h>
+
