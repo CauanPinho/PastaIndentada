@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include <locale.h>
 
 int main()
 {
-    setlocale(LC_ALL, "Portuguese");
     int x,y,z;
     printf("Digite um numero");
     scanf("%d",&x);
