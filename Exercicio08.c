@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <locale.h>
 #include <math.h>
 
 
@@ -14,7 +13,7 @@ int main()
     y=sqrt(x);
 
 
-    printf("a potencia quadrada é %.f\n",z);
-    printf("a raiz desse numero é %.f\n",y);
+    printf("a potencia quadrada Ã© %.f\n",z);
+    printf("a raiz desse numero Ã© %.f\n",y);
     return 0;
 }
