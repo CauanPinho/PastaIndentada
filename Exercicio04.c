@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <locale.h>
+
 
 int main()
 {
-    setlocale(LC_ALL, "portuguese");
     int x,y,z;
     float w;
     printf("Digite uma nota");
@@ -13,6 +12,6 @@ int main()
     printf("Digite um nota");
     scanf("%d",&z);
     w=(x+y+z)/3;
-    printf("A media aritmética entre esses 3 numeros é:%.f",w);
+    printf("A media aritmÃ©tica entre esses 3 numeros Ã©:%.f",w);
 
 }
