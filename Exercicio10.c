@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
-#ifndef M_PI
-#define M_PI 3.14159265358979323846
-#endif
+
+
+
 
 int main(void)
 {
+    float pi 3.14;
     double lq, br, hr, bt, ht, rc, Btr, btr, htr, bp, hp, Dl, dl;
     double ae, be, rs, ang, Rc, rc2, a, b, c, lado_poly;
     int n_poly;
@@ -27,16 +28,16 @@ int main(void)
     double A_quadrado   = lq * lq;
     double A_retangulo  = br * hr;
     double A_triang_bh  = 0.5 * bt * ht;
-    double A_circulo    = M_PI * rc * rc;
+    double A_circulo    = pi * rc * rc;
     double A_trapezio   = 0.5 * (Btr + btr) * htr;
     double A_paralelo   = bp * hp;
     double A_losango    = 0.5 * Dl * dl;
-    double A_elipse     = M_PI * ae * be;
-    double A_setor      = M_PI * rs * rs * (ang / 360.0);
-    double A_coroa      = M_PI * (Rc*Rc - rc2*rc2);
+    double A_elipse     = pi * ae * be;
+    double A_setor      = pi * rs * rs * (ang / 360.0);
+    double A_coroa      = pi * (Rc*Rc - rc2*rc2);
     double s            = (a + b + c) / 2.0;
     double A_heron      = sqrt(s * (s - a) * (s - b) * (s - c));
-    double A_polig_reg  = (n_poly * lado_poly * lado_poly) / (4.0 * tan(M_PI / (double)n_poly));
+    double A_polig_reg  = (n_poly * lado_poly * lado_poly) / (4.0 * tan(pi / (double)n_poly));
 
     printf("\nAreas calculadas:\n");
     printf("Quadrado:            %.4f\n", A_quadrado);
