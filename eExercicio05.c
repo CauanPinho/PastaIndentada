@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <locale.h>
-
 int main()
 {
     setlocale(LC_ALL, "portuguese");
@@ -12,6 +10,6 @@ int main()
     scanf("%d",&y);
 
     w=(x*2) + (y*1) /3;
-    printf("A media ponderada entre essas 2 notas é:%.f",w);
+    printf("A media ponderada entre essas 2 notas Ã©:%.f",w);
 
 }
